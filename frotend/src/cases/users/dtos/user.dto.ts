@@ -1,11 +1,13 @@
-export interface UserDto {
-    id?: string;
+export interface userDTO {
+    id: string;
     name: string;
     email: string;
     supabaseId: string;
     hasMFA: boolean;
 
     factoryId?: string;
-    isMFAValidated?: boolean;
-    isFirstMFAAccess?: boolean;
+    isMfaValidated?: boolean;
+    isFirstMfaAccess?: boolean;
+    
+    
 }

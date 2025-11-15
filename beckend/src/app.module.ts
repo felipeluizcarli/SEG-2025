@@ -2,6 +2,8 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { SupabaseModule } from './supabase/supabase.module';
+import { AuthModule } from './cases/auth/auyh.module';
+import { UserModule } from './cases/users/user.module';
 
 @Module({
   imports: [
